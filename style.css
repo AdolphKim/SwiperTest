@@ -1,0 +1,40 @@
+@import "reset.css";
+
+header{
+    display:flex;
+    justify-content: space-between;
+    height:10vh;
+    align-items: center;
+}
+img{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+header .mainLogo{
+    font-size : 48px;
+    padding : 40px;
+}
+header .menuBox{
+    padding : 40px;
+}
+header .menuBox_menus{
+    display:flex;
+    font-size : 24px;
+}
+
+header .menuBox_menus .menu{
+    padding:10px;
+}
+
+main{
+    height:90vh;
+}
+main swiper-container{
+    height : 100%;
+}
+
+main swiper-container p{
+    z-index: 2;
+}
